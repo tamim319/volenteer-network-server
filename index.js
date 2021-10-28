@@ -88,6 +88,10 @@ app.get('/', (req, res) => {
     res.send('volunterr network express')
 });
 
+app.get('/hello', (req, res) => {
+    res.send('hello updated')
+});
+
 app.listen(port, () => {
     console.log('volunteer are here', port)
 });
